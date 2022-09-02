@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Frontend\\SM-V1\\SM-graphql-backend\\stockmanager\\StockManager.GraphQL\\StockManager.GraphQL.csproj": {}
+    "C:\\Frontend\\SM-graphql-backend\\stockmanager\\StockManager.GraphQL\\StockManager.GraphQL.csproj": {}
   },
   "projects": {
-    "C:\\Frontend\\SM-V1\\SM-graphql-backend\\stockmanager\\StockManager.GraphQL\\StockManager.GraphQL.csproj": {
+    "C:\\Frontend\\SM-graphql-backend\\stockmanager\\StockManager.GraphQL\\StockManager.GraphQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Frontend\\SM-V1\\SM-graphql-backend\\stockmanager\\StockManager.GraphQL\\StockManager.GraphQL.csproj",
+        "projectUniqueName": "C:\\Frontend\\SM-graphql-backend\\stockmanager\\StockManager.GraphQL\\StockManager.GraphQL.csproj",
         "projectName": "StockManager.GraphQL",
-        "projectPath": "C:\\Frontend\\SM-V1\\SM-graphql-backend\\stockmanager\\StockManager.GraphQL\\StockManager.GraphQL.csproj",
+        "projectPath": "C:\\Frontend\\SM-graphql-backend\\stockmanager\\StockManager.GraphQL\\StockManager.GraphQL.csproj",
         "packagesPath": "C:\\Users\\Property365\\.nuget\\packages\\",
-        "outputPath": "C:\\Frontend\\SM-V1\\SM-graphql-backend\\stockmanager\\StockManager.GraphQL\\obj\\",
+        "outputPath": "C:\\Frontend\\SM-graphql-backend\\stockmanager\\StockManager.GraphQL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Property365\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,6 +42,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[13.0.0-preview.45, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
